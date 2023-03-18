@@ -641,7 +641,7 @@ body {
     left:0;
     height:0%;
     width:2px;
-    background-color: #ffffffe7;
+    background-color: #ffffffd0;
     z-index: -1;
     transition: height 0.5s, width 1s ease-in-out 0.2s ;
     box-shadow: 0 0 30px  #ffffff;
