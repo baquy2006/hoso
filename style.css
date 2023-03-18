@@ -16,7 +16,7 @@
 }
 body {
     min-height: 98vh;
-    background: #000000;
+    background-image: linear-gradient(to top, #000000,#2b124b,#000000);
              background-repeat: no-repeat;
             background-position:  center;
             background-size: cover ;
@@ -164,7 +164,7 @@ body {
     
     opacity:0.1;
     
-    box-shadow: 0px 0px 35px #FE4E56;
+    box-shadow: 0px 0px 35px #ffffff;
     
     }
     
@@ -172,7 +172,7 @@ body {
     
     opacity:1;
     
-    box-shadow: 0px 0px 35px #FE4E56;
+    box-shadow: 0px 0px 35px #ffffff;
     
     }
     
@@ -180,7 +180,7 @@ body {
     
     opacity:0.1;
     
-    box-shadow: 0px 0px 35px #FE4E56;
+    box-shadow: 0px 0px 35px #ffffff;
     
     }
     
@@ -188,7 +188,7 @@ body {
     
     opacity:1;
     
-    box-shadow: 0px 0px 35px#FE4E56;
+    box-shadow: 0px 0px 35px#ffffff;
     
     }
     
@@ -196,7 +196,7 @@ body {
     
     opacity:0.1;
     
-    box-shadow: 0px 0px 35px #FE4E56;
+    box-shadow: 0px 0px 35px #ffffff;
     
     }
     
@@ -204,21 +204,21 @@ body {
     
     opacity:1;
     
-    box-shadow: 0px 0px #FE4E56;
+    box-shadow: 0px 0px #ffffff;
     }
     
     25% {
     
     opacity:0.3;
     
-    box-shadow: 0px 0px #FE4E56;
+    box-shadow: 0px 0px #ffffff;
     }
     
     30% {
     
     opacity:1;
     
-    box-shadow: 0px 0px #FE4E56;
+    box-shadow: 0px 0px #ffffff;
     
     }
     
@@ -226,7 +226,7 @@ body {
     
     opacity:0.7;
     
-    box-shadow: 0px 0px #FE4E56;
+    box-shadow: 0px 0px #ffffff;
     
     }
     
@@ -234,7 +234,7 @@ body {
     
     opacity:0.2;
     
-    box-shadow: 0px 0px#FE4E56;
+    box-shadow: 0px 0px#ffffff;
     
     }
     
@@ -242,7 +242,7 @@ body {
     
     opacity:0.9;
     
-    box-shadow: 0px 0px #FE4E56;
+    box-shadow: 0px 0px #ffffff;
     
     }
     
@@ -250,7 +250,7 @@ body {
     
     opacity:0.9;
     
-    box-shadow: 0px 0px #FE4E56;
+    box-shadow: 0px 0px #ffffff;
     }
     
     }
@@ -602,7 +602,7 @@ body {
      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size:90px;
       letter-spacing:5px;
-      animation: text-flicker 8s linear infinite;
+ 
       
       
       
@@ -610,14 +610,14 @@ body {
       }
       
       .off-fl{
-        animation:letter-flicker 5s linear infinite; 
+    
       }
 
       .text-1 {
         margin-left: -200px;
         color: rgb(255, 255, 255);
         filter: brightness(2);
-        
+        animation: text-flicker 2.9s linear infinite;
        
         
        
@@ -626,16 +626,19 @@ body {
         margin-left: -100px;
         color: rgb(0, 255, 251);
         filter: brightness(2);
+        animation: text-flicker 2.5s linear infinite;
       }
       .text-3 {
         margin-left: 0px;
         color: rgb(255, 255, 255);
         filter: brightness(2);
+        animation: text-flicker 2.2s linear infinite;
       }
       .text-4 {
         margin-left: 100px;
         color: rgb(0, 255, 251);
         filter: brightness(2);
+        animation: text-flicker 2.7s linear infinite;
       }
     
     
