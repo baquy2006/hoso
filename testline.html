@@ -1,0 +1,21 @@
+.box{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to top, #000000,#2b124b,#000000);
+    overflow:hidden;
+  }
+   
+  .box:before{
+    content:"";
+    position:absolute;
+    top:-50%;
+    left:-50%;
+    width: 100%;
+    height: 100%;
+  background: linear-gradient(0deg, transparent, transparent, #45f3ff,#45f3ff,#45f3ff);
+  z-index:1;
+  transform-origin: bottom right;
+  animation: animate 6s linear infinite;
+  }
