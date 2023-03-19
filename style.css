@@ -8,6 +8,14 @@
     --danger: #FE4E56;
     --yellow: #fbff22;
     --blue: rgb(0, 255, 251);
+   --1:#fc6c8f;
+   --2:#ff2ced;
+    --3: #ffb86c;
+    --4: #2cccff;
+    --5: #20e3b2;
+    --6: #ffcc70;
+    --7: #c850c0;
+    --8: #4158d0;
 }
 @property --rotate {
     syntax: "<angle>";
@@ -343,9 +351,9 @@ body {
   }
   .card img:nth-child(2){
     position: absolute;
-    bottom: -14%;
-    width: 103.5%;
-    left: 24%;
+    bottom: -13%;
+    width: 200%;
+    left: 14%;
     
     transform: translateX(-25%);
     opacity: 0;
@@ -649,6 +657,8 @@ body {
   .tiktok:hover:before{
     width: 100%;
     height: 100%;
+    left: 0;
+    right: auto;
     
    
   }
@@ -693,6 +703,8 @@ body {
      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size:90px;
       letter-spacing:5px;
+      
+      
  
       
       
@@ -705,31 +717,101 @@ body {
       }
 
       .text-1 {
-        margin-left: -200px;
-        color: rgb(255, 255, 255);
-        filter: brightness(2);
-        animation: text-flicker 2.9s linear infinite;
        
+          margin-left: -150px;
+          filter: brightness(1);
+          color: transparent;
+          background-image: linear-gradient(
+            to right top,
+            #fc6c8f,
+            #ff2ced,
+            #ffb86c,
+            #2cccff,
+            #ffcc70,
+            #c850c0,
+            #4158d0);
+          background-clip: text;
+          -webkit-background-clip: text;
+          display: inline-block;
+          font-weight: bold;
+          animation: text-flicker 2.9s linear infinite;
+        }
         
+
        
-      }
+      
+
+
+
+
+      
       .text-2 {
-        margin-left: -100px;
-        color: rgb(0, 255, 251);
-        filter: brightness(2);
+        margin-left: 0px;
+        color: transparent;
+        background-image: linear-gradient(
+          to left,
+          #fc6c8f,
+          #ff2ced,
+          #ffb86c,
+          #2cccff,
+          #20e3b2,
+          #ffcc70,
+          #c850c0,
+          #4158d0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        display: inline-block;
+        font-weight: bold;
+        filter: brightness(1.25);
         animation: text-flicker 2.5s linear infinite;
+        color: transparent;
       }
       .text-3 {
-        margin-left: 0px;
-        color: rgb(255, 255, 255);
-        filter: brightness(2);
+        margin-left: 125px;
+        color: transparent;
+        background-image: linear-gradient(
+          to left bottom,
+          #fc6c8f,
+          #ff2ced,
+          #ffb86c,
+           #ff2ced,
+          #20e3b2,
+          #ff2ced,
+          #ffcc70,
+          #c850c0,
+          #4158d0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        display: inline-block;
+        font-weight: bold;
+       
+        animation: text2-flicker 1s linear infinite;
+
+        filter: brightness(1);
         animation: text-flicker 2.2s linear infinite;
       }
       .text-4 {
-        margin-left: 100px;
-        color: rgb(0, 255, 251);
-        filter: brightness(2);
+        margin-left: 200px;
+        color: transparent;
+        background-image: linear-gradient(
+          to right bottom,
+          #fc6c8f,
+          #ff2ced,
+          #ffb86c,
+          #2cccff,
+          #ff2ced,
+          #ffcc70,
+          #c850c0,
+          #4158d0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        display: inline-block;
+        font-weight: bold;
+        animation: text2-flicker 5s linear infinite;
+
+        filter: brightness(1);
         animation: text-flicker 2.7s linear infinite;
+        
       }
     
     
@@ -740,7 +822,8 @@ body {
     
     opacity:0.1;
     
-    text-shadow: 0px 0px 3 rgb(255, 255, 255)
+    
+    text-shadow: 0px 0px  rgba(255, 255, 255, 0)
     
     }
     
@@ -748,7 +831,7 @@ body {
     
     opacity:1;
     
-    text-shadow: 0px 0px  rgb(255, 252, 252);
+    text-shadow: 0px 0px  rgba(255, 252, 252, 0);
     
     }
     
@@ -756,7 +839,7 @@ body {
     
     opacity:0.1;
     
-    text-shadow: 0px 0px  rgb(255, 255, 255);
+    text-shadow: 0px 0px  rgba(255, 255, 255, 0);
     
     }
     
@@ -764,7 +847,7 @@ body {
     
     opacity:1;
     
-    text-shadow: 0px 0px  rgb(255, 255, 255);
+    text-shadow: 0px 0px  rgba(255, 255, 255, 0);
     
     }
     
@@ -772,7 +855,7 @@ body {
     
     opacity:0.1;
     
-    text-shadow: 0px 0px  rgb(255, 255, 255);
+    text-shadow: 0px 0px  rgba(255, 255, 255, 0);
     
     }
     
@@ -780,7 +863,7 @@ body {
     
     opacity:1;
     
-    text-shadow: 0px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     
     }
     
@@ -788,7 +871,7 @@ body {
     
     opacity:0.3;
     
-    text-shadow: 0px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     
     }
     
@@ -796,7 +879,7 @@ body {
     
     opacity:1;
     
-    text-shadow: 0px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     
     }
     
@@ -804,7 +887,7 @@ body {
     
     opacity:0.7;
     
-    text-shadow: 0px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     
     }
     
@@ -812,7 +895,7 @@ body {
     
     opacity:0.2;
     
-    text-shadow: 0px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     
     }
     
@@ -820,7 +903,7 @@ body {
     
     opacity:0.9;
     
-    text-shadow: 0px 0px rgb(255, 255, 255)
+    text-shadow: 0px 0px rgba(255, 255, 255, 0)
     
     }
     
@@ -828,7 +911,7 @@ body {
     
     opacity:0.9;
     
-    text-shadow: 0px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px rgba(255, 255, 255, 0);
     
     }
     
@@ -845,7 +928,6 @@ body {
 
  
   
-
 
 
 
