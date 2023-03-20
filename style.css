@@ -351,10 +351,9 @@ body {
   }
   .card img:nth-child(2){
     position: absolute;
-    bottom: 0%;
-    width: 100%;
-    left: 25%;
-    height: 500px;
+    bottom: -13%;
+    width: 200%;
+    left: 14%;
     
     transform: translateX(-25%);
     opacity: 0;
