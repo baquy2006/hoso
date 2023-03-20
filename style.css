@@ -365,7 +365,7 @@ body {
   }
   .card .content{
     position: absolute;
-    font-size: 0px;
+    font-size: 50px;
     font-family: 'Sacramento', cursive;
     color: var(--white);
     line-height: .8em;
@@ -374,6 +374,7 @@ body {
     rotate: -0deg;
     text-shadow:  0 0 10px var(--danger);
     opacity: 0.5s;
+    animation: text-flicker 3s linear infinite;
 
   }
 
@@ -383,7 +384,7 @@ body {
     text-shadow:  0 0 100px #ff0000;
     font-size: 50px;
     filter: brightness(2);
-     animation: text-flicker 3s linear infinite;
+   
   }
   .card:hover{
     background-color: transparent;
